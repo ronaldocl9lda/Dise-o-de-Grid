@@ -1,0 +1,22 @@
+@media (max-width: 958px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    .layout .caja {
+        font-size: 10px;
+        color: yellow;
+        text-decoration: solid;
+    }
+
+    .layout .green {
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+
+    .layout .blue {
+        grid-column: 1 / 4;
+    }
+}
